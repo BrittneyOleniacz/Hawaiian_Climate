@@ -10,6 +10,9 @@ I used Python and SQLAlchemy to do basic climate analysis and data exploration o
 * Results plotted using the DataFrame `plot` method.
 * The summary statistics for the precipitation data printed via Pandas.
 
+![Precip](Visualizations/Precipitation_Observations.png)
+
+
 ### Station Analysis
 * Design a query:
   * to calculate the total number of stations.
