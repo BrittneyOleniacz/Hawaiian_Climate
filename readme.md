@@ -55,8 +55,7 @@ Using the queries I just developed I designed a Flask API.
 * You may either use SQLAlchemy or pandas's `read_csv()` to perform this portion.
 * Identify the average temperature in June at all stations across all available years in the dataset. Do the same for December temperature.
 * Use the t-test to determine whether the difference in the means, if any, is statistically significant. Will you use a paired t-test, or an unpaired t-test? Why?
-_Across all the stations, the mean temperatures in June and December temperature in years 2010-2017 differ by 3.9 degrees Fahrenheit. An unpaired t-test was conducted, and with an extremely low p-value, the difference is deemed statistically significant. 
-_
+
 ### Calculating Temperatures
 * I used a function called `calc_temps` that accepts a start date and end date in the format `%Y-%m-%d`. The function will return the minimum, average, and maximum temperatures for that range of dates.
 * The min, avg, and max temperature from the query is plotted as a bar chart using:
